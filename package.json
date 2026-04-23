@@ -1,0 +1,26 @@
+{
+  "name": "demotsparticle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^6.0.3",
+    "vite": "^8.0.10"
+  },
+  "dependencies": {
+    "@tsparticles/engine": "^3.9.1",
+    "@tsparticles/interaction-external-attract": "^3.9.1",
+    "@tsparticles/interaction-external-repulse": "^3.9.1",
+    "@tsparticles/plugin-polygon-mask": "^3.9.1",
+    "@tsparticles/slim": "^3.9.1"
+  }
+}
